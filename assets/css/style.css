@@ -2,27 +2,10 @@ body {
     background-color: black;
 }
 
+/* Set up responsive typography */
 html,
 body {
 	font-size: 14px !important;
-}
-h1 {
-	font-size: 1.602em;
-}
-h2 {
-	font-size: 1.424em;
-}
-h3 {
-	font-size: 1.266em;
-}
-h4 {
-	font-size: 1.125em;
-}
-h5 {
-	font-size: 0.889em;
-}
-h6 {
-	font-size: 0.79em;
 }
 .display-1 {
 	font-size: 3.906em;
@@ -39,18 +22,6 @@ h6 {
 
 /* Medium devices (tablets, 48em and up) */
 @media (min-width: 48em) {
-	h1 {
-        font-size: 2.441em;
-	}
-	h2 {
-		font-size: 1.953em;
-	}
-	h3 {
-		font-size: 1.563em;
-	}
-	h4 {
-		font-size: 1.25em;
-	}
 	.display-1 {
 		font-size: 6em;
 	}
