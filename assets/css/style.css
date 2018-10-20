@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+.jumbotron {
+	background-color: black;
+	min-height: 100%;
+}
+
 /* Set up responsive typography */
 html,
 body {
@@ -50,4 +55,9 @@ body {
 	body {
 		font-size: 18px !important;
 	}
+}
+
+/* Content Boxes */
+.content-box {
+	height: 400px;
 }
